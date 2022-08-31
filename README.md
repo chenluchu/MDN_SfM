@@ -22,6 +22,7 @@ https://drive.google.com/drive/u/0/folders/1HsuBV9__58AVMvc2izzSVEWc4_Ljnp_a
 
 Based on the generated groud-truth above, we evaluate the mobile probability map of our MobileDetectionNet through 3 metrix: presicion, recall and dice coefficient. You can see the results below.
 
+$
 \documentclass[UTF8]{ctexart}
 \begin{document}
 
@@ -35,3 +36,4 @@ Bill Gates& 002& Female\\
 \end{tabular}
 
 \end{document}
+$
