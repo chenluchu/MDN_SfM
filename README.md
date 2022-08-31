@@ -22,18 +22,11 @@ https://drive.google.com/drive/u/0/folders/1HsuBV9__58AVMvc2izzSVEWc4_Ljnp_a
 
 Based on the generated groud-truth above, we evaluate the mobile probability map of our MobileDetectionNet through 3 metrix: presicion, recall and dice coefficient. You can see the results below.
 
-$
-\documentclass[UTF8]{ctexart}
-\begin{document}
+|Model name  | Accuracy | Precision | Recall | Dice | Binary threshold|
+|:-----------|:--------:|:---------:|:------:|:----:|:---------------:|
+|SN mode     | 85.68% | 19.15% | 32.64% | 18.58% | 0.18 |
+|T mode      | 80.70% | 10.53% | 27.20% | 11.48% | 0.32 |
+|TG mode     | 92.34% | 22.95% | 27.86% | 21.17% | 0.30 |
+|DS mode     | 95.89% | 56.32% | 52.97% | 49.98% | 0.48 |
+|DC mode     | 83.54% | 25.00% | 61.63% | 28.71% | 0.15 |
 
-\begin{tabular}{ccc}
-\hline
-姓名& 学号& 性别\\
-\hline
-Steve Jobs& 001& Male\\
-Bill Gates& 002& Female\\
-\hline
-\end{tabular}
-
-\end{document}
-$
